@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FFD8456134C2BC600E9F6C8 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8FFD8454134C2BC600E9F6C8 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F70EC9F135A9FDC00914847 /* clothforce.cu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = clothforce.cu; path = "GPU Computing/C/projects/cloth/clothforce.cu"; sourceTree = SYSTEM_DEVELOPER_DIR; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		8FAECFD0135C26DA00060EEB /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = "GPU Computing/C/projects/cloth/constants.h"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8FBD849A135149E900D8C071 /* cloth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cloth.cpp; path = "GPU Computing/C/projects/cloth/cloth.cpp"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8FBD849D1351506200D8C071 /* clothsim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clothsim.h; path = "GPU Computing/C/projects/cloth/clothsim.h"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8FBD849E1351506200D8C071 /* clothsim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clothsim.cpp; path = "GPU Computing/C/projects/cloth/clothsim.cpp"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8FBD84C61351591700D8C071 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "GPU Computing/C/projects/cloth/main.cpp"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8FFD844A134C2B2A00E9F6C8 /* cloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFD844C134C2B2A00E9F6C8 /* cloth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "cloth-Info.plist"; path = "GPU Computing/C/projects/cloth/cloth-Info.plist"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8FFD8453134C2BC600E9F6C8 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "GPU Computing/C/projects/cloth/Makefile"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8FFD8454134C2BC600E9F6C8 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = "GPU Computing/C/projects/cloth/icon.icns"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8FFD84A2134C2F0A00E9F6C8 /* cloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cloth.h; path = "GPU Computing/C/projects/cloth/cloth.h"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8F00093912D271420075F54B = {
+			isa = PBXGroup;
+			children = (
+				8FBD84C61351591700D8C071 /* main.cpp */,
+				8FAECFD0135C26DA00060EEB /* constants.h */,
+				8FBD849A135149E900D8C071 /* cloth.cpp */,
+				8FBD849D1351506200D8C071 /* clothsim.h */,
+				8FBD849E1351506200D8C071 /* clothsim.cpp */,
+				8F70EC9F135A9FDC00914847 /* clothforce.cu */,
+				8FFD84A2134C2F0A00E9F6C8 /* cloth.h */,
+				8FFD8453134C2BC600E9F6C8 /* Makefile */,
+				8FFD8454134C2BC600E9F6C8 /* icon.icns */,
+				8F00094812D271570075F54B /* Products */,
+				8FFD844C134C2B2A00E9F6C8 /* cloth-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		8F00094812D271570075F54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FFD844A134C2B2A00E9F6C8 /* cloth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FFD8449134C2B2A00E9F6C8 /* cloth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFD844F134C2B2B00E9F6C8 /* Build configuration list for PBXNativeTarget "cloth" */;
+			buildPhases = (
+				8FFD8446134C2B2A00E9F6C8 /* Resources */,
+				8FFD8452134C2BA900E9F6C8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cloth;
+			productName = cloth;
+			productReference = 8FFD844A134C2B2A00E9F6C8 /* cloth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F00093B12D271420075F54B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8F00093E12D271420075F54B /* Build configuration list for PBXProject "cloth" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 8F00093912D271420075F54B;
+			productRefGroup = 8F00094812D271570075F54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FFD8449134C2B2A00E9F6C8 /* cloth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FFD8446134C2B2A00E9F6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFD8456134C2BC600E9F6C8 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FFD8452134C2BA900E9F6C8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nmake\nmv /Developer/GPU\\ Computing/C/bin/darwin/release/cloth ./build/Release/cloth.app/Contents\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8F00093C12D271420075F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8F00093D12D271420075F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		8FFD844D134C2B2B00E9F6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "cloth-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = cloth;
+			};
+			name = Debug;
+		};
+		8FFD844E134C2B2B00E9F6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "cloth-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = cloth;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F00093E12D271420075F54B /* Build configuration list for PBXProject "cloth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F00093C12D271420075F54B /* Debug */,
+				8F00093D12D271420075F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFD844F134C2B2B00E9F6C8 /* Build configuration list for PBXNativeTarget "cloth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFD844D134C2B2B00E9F6C8 /* Debug */,
+				8FFD844E134C2B2B00E9F6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F00093B12D271420075F54B /* Project object */;
+}
